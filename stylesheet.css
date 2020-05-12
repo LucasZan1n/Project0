@@ -38,7 +38,7 @@ nav {
 	text-align:center;
 }
 
-.col-4 {
+.col-sm-4 {
 	padding:10px;
 	border-left:dotted green;
 }
@@ -54,4 +54,30 @@ nav {
 
 .col {
 	text-align: left;
+}
+
+@media only screen and (max-width:500px) {
+	.col-sm-4 {
+		border-left:none;
+	}
+}
+
+.col-sm-6 {
+	padding:20px;
+	font-size:25px;
+}
+
+.col-sm-12 {
+	text-align: center;
+	padding:20px;
+}
+
+td, th {
+	padding:10px;
+	border:solid;
+}
+
+table {
+	margin-left:auto;
+	margin-right:auto;
 }
